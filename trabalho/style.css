@@ -1,0 +1,115 @@
+/* Estilos gerais da página */
+body {
+  /* Fonte padrão para todo o texto */
+  font-family: Arial, sans-serif;
+  /* Cor de fundo suave, como um papel antigo */
+  background-color: orangered
+  ; /* Um tom de bege bem clarinho */
+  /* Remove as margens padrão do body */
+  margin: 0;
+  /* Remove o preenchimento padrão do body */
+  padding: 0;
+}
+
+/* Estilos do cabeçalho da página */
+header {
+  /* Cor de fundo vibrante, como um pôr do sol na cozinha da vovó 
+  background-color: #f05a28; /* Um laranja bem alegre */
+  /* Cor do texto no cabeçalho */
+  color: white;
+  /* Espaçamento interno para dar ar ao conteúdo */
+  padding: 20px;
+  /* Centraliza o título */
+  text-align: center;
+}
+
+/* Estilos da barra de pesquisa */
+#searchBar {
+  /* Espaço acima da barra de pesquisa */
+  margin-top: 10px;
+  /* Espaçamento interno para o texto digitado */
+  padding: 10px;
+  /* Largura da barra de pesquisa, ocupando boa parte da tela */
+  width: 80%;
+  /* Largura máxima para não ficar muito grande em telas maiores */
+  max-width: 400px;
+  /* Tamanho da fonte do texto digitado */
+  font-size: 16px;
+}
+
+/* Estilos da área principal de conteúdo */
+main {
+  /* Permite que os cards de receita se organizem em várias linhas */
+  display: flex;
+  flex-wrap: wrap;
+  /* Centraliza os cards horizontalmente */
+  justify-content: center;
+  /* Espaçamento interno ao redor dos cards */
+  padding: 20px;
+}
+
+/* Estilos de cada cartão de receita */
+.recipe-card {
+  /* Cor de fundo branca para o cartão */
+  background-color: #fff;
+  /* Borda sutil para separar os cartões */
+  border: 1px solid #ddd; /* Um cinza bem claro */
+  /* Bordas arredondadas para um visual mais suave */
+  border-radius: 12px;
+  /* Sombra leve para dar um efeito de profundidade */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+  /* Espaçamento interno dentro do cartão */
+  padding: 16px;
+  /* Espaçamento entre os cartões */
+  margin: 10px;
+  /* Largura fixa para os cartões */
+  width: 250px;
+  /* Indica que o cartão pode ser clicado */
+  cursor: pointer;
+  /* Transição suave para o efeito de hover */
+  transition: transform 0.2s; /* Animação suave ao passar o mouse */
+  /* Centraliza o texto dentro do cartão */
+  text-align: center;
+}
+
+/* Estilo quando o mouse passa por cima do cartão */
+.recipe-card:hover {
+  /* Aumenta levemente o tamanho do cartão */
+  transform: scale(1.05);
+  /* Cor de fundo mais clara ao passar o mouse */
+  background-color: #fff0e6; /* Um bege ainda mais claro */
+}
+
+/* Estilos do título da receita dentro do cartão */
+.recipe-card h2 {
+  /* Tamanho da fonte do título */
+  font-size: 1.2em;
+  /* Cor do texto do título */
+  color: #333; /* Um cinza mais escuro */
+}
+
+/* Estilos da imagem da receita */
+.recipe-img {
+  /* Largura total do cartão */
+  width: 100%;
+  /* Altura fixa para as imagens */
+  height: 160px;
+  /* Garante que a imagem cubra o espaço sem deformar muito */
+  object-fit: cover;
+  /* Bordas arredondadas para combinar com o cartão */
+  border-radius: 8px;
+  /* Espaço abaixo da imagem */
+  margin-bottom: 10px;
+}
+
+/* Estilos do rodapé da página */
+footer {
+  /* Cor de fundo igual ao cabeçalho */
+  background-color: #f05a28;
+  /* Cor do texto no rodapé */
+  color: white;
+  /* Centraliza o texto do rodapé */
+  text-align: center;
+  /* Espaçamento interno no rodapé */
+  padding: 10px;
+}
