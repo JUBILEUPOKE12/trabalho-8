@@ -21,3 +21,45 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas Brasileiras da Vovó</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Receitas Brasileiras da Vovó</h1>
+    <input type="text" id="searchBar" placeholder="Pesquisar receitas...">
+  </header>
+
+  <main id="recipeContainer"></main>
+
+  <!-- 👇👇👇 QUIZ DE FEEDBACK 👇👇👇 -->
+  <div id="feedbackSection">
+    <button id="quizBtn">Quiz de Feedback</button>
+    <form id="quizForm" style="display: none;">
+      <h3>O que você achou do site?</h3>
+      <label><input type="checkbox" name="gostou" value="Receitas"> Receitas gostosas 🍲</label><br>
+      <label><input type="checkbox" name="gostou" value="Visual"> Visual agradável 🎨</label><br>
+      <label><input type="checkbox" name="gostou" value="Facilidade"> Fácil de usar 💡</label><br>
+      <label><input type="checkbox" name="gostou" value="Imagens"> Imagens apetitosas 📸</label><br><br>
+
+      <label for="comentario">Comentário:</label><br>
+      <textarea id="comentario" name="comentario" rows="3" cols="30" placeholder="Nos conte mais..."></textarea><br><br>
+
+      <button type="submit">Enviar Feedback</button>
+    </form>
+  </div>
+  <!-- 👆👆👆 QUIZ DE FEEDBACK 👆👆👆 -->
+
+  <footer>
+    <p>&copy; 2025 Receitas da Vovó - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
