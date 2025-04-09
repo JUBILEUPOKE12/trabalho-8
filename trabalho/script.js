@@ -87,3 +87,19 @@ document.addEventListener("DOMContentLoaded", function () {
   // Para começar, mostramos todas as receitas!
   exibirReceitas(receitas);
 });
+
+// Quiz de Feedback
+const quizBtn = document.getElementById("quizBtn");
+const quizForm = document.getElementById("quizForm");
+
+quizBtn.addEventListener("click", () => {
+  quizForm.style.display = quizForm.style.display === "none" ? "block" : "none";
+});
+
+quizForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("🎉 Obrigado pelo seu feedback! Ele é muito importante para a vovó 👵❤️");
+  quizForm.reset();
+  quizForm.style.display = "none";
+});
+
