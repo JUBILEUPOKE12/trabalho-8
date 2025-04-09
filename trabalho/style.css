@@ -1,3 +1,56 @@
+#feedbackSection {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff5ed;
+}
+
+#quizBtn {
+  background-color: #f05a28;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#quizBtn:hover {
+  background-color: #d94d20;
+}
+
+#quizForm {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#quizForm h3 {
+  margin-top: 0;
+}
+
+#quizForm textarea {
+  resize: none;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#quizForm button[type="submit"] {
+  background-color: #f05a28;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#quizForm button[type="submit"]:hover {
+  background-color: #d94d20;
+}
 /* Estilos gerais da página */
 body {
   /* Fonte padrão para todo o texto */
@@ -112,4 +165,58 @@ footer {
   text-align: center;
   /* Espaçamento interno no rodapé */
   padding: 10px;
+}
+
+#feedbackSection {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff5ed;
+}
+
+#quizBtn {
+  background-color: #f05a28;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#quizBtn:hover {
+  background-color: #d94d20;
+}
+
+#quizForm {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#quizForm h3 {
+  margin-top: 0;
+}
+
+#quizForm textarea {
+  resize: none;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#quizForm button[type="submit"] {
+  background-color: #f05a28;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#quizForm button[type="submit"]:hover {
+  background-color: #d94d20;
 }
